@@ -9,8 +9,8 @@ const Testemunhos = () => {
             
         <div className="flex justify-center pb-[5rem]">
 
-            <div className="border-4 border-[#f2f000] rounded-lg ">
-                <Image src={profile} width={100} height={100} /> 
+            <div className="rounded-lg ">
+                <Image src={profile} width={100} height={100} className="rounded-lg"/> 
             </div>
             <div className="ml-4 mr-10">
                 <p className="font-semibold">José Manel</p>
@@ -19,8 +19,8 @@ const Testemunhos = () => {
             </div>
 
 
-            <div className="border-4 border-[#f2f000] rounded-lg">
-                <Image src={profile} width={100} height={100} /> 
+            <div className="rounded-lg">
+                <Image src={profile} width={100} height={100} className="rounded-lg" /> 
             </div>
             <div className="ml-4 mr-10  ">
                 <p className="font-semibold">Maria Joana</p>
@@ -29,8 +29,8 @@ const Testemunhos = () => {
             </div>
 
 
-            <div className="border-4 border-[#f2f000] rounded-lg">
-                <Image src={profile} width={100} height={100} /> 
+            <div className="rounded-lg">
+                <Image src={profile} width={100} height={100} className="rounded-lg"/> 
             </div>
             <div className="ml-4">
                 <p className="font-semibold">Fuel Helas</p>

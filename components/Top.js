@@ -7,8 +7,8 @@ const Top = () => {
     return (
         <div className="p-20">
             <div className="flex justify-between">
-                <div>
-                <h1 className="text-4xl w-[25rem] "><strong>Parceiro que ajuda o seu negócio a competir nos canais digitais</strong></h1> 
+                <div className="md:w-1/2">
+                <h1 className="text-4xl w-[25rem]"><strong>Partner that helps your business compete on digital channels</strong></h1> 
 
                 <p className="mt-4 mb-4 w-96 text-justify font-medium">
                     Para acompanhar seu público, cada vez mais empresas
@@ -27,7 +27,7 @@ const Top = () => {
 
                 </div>
 
-                <Image src={laptop} width={612} height={612} className=""/>
+                <Image src={laptop} width={612} height={612} className="w-1/2"/>
             </div>
 
         </div>

@@ -16,9 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-[#f2f000] h-screen'>
-        <Header></Header>
-        <Top></Top>
+      <main className="pb-10">
+        <div className='bg-[#FBED04] md:h-screen px-10 pb-4'>
+          <Header></Header>
+          <Top></Top>
+        </div>
         <Descontos></Descontos>
         <Form></Form>
         <Testemunhos></Testemunhos>

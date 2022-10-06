@@ -28,6 +28,7 @@ const Top = () => {
                 </div>
 
                 <Image src={laptop} width={612} height={612} className="w-1/2"/>
+
             </div>
 
         </div>

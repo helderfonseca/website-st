@@ -11,9 +11,7 @@ const Top = () => {
                 <h1 className="text-4xl w-[25rem]"><strong>Partner that helps your business compete on digital channels</strong></h1> 
 
                 <p className="mt-4 mb-4 w-96 text-justify font-medium">
-                    Para acompanhar seu público, cada vez mais empresas
-                    estão apostando na criação de canais digitais de relacionamento
-                    com o cliente.
+                   To keep up with their audience, more and more companies are betting on creating digital customer relationship channels. 
                 </p>
                 <p className="mb-4 w-96 text-justify font-medium" >
                     A presença online é muito mais do que ter um website na internet:

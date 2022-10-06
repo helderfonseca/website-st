@@ -19,7 +19,7 @@ const Form = () => {
                 <input type="text" className="border-[1px] border-neutral-500 w-96 rounded"></input>
             </div>
             <div className="mr-3">
-                <input type="submit" className="bg-[#f2f000] w-[7rem] rounded p-0.5  m-5 hover:bg-[#f2ff02]" ></input>
+                <input type="submit" className="bg-[#FBED04] w-[7rem] rounded p-0.5  m-5 hover:bg-[#FBED04]" ></input>
             </div>
         </form>
     </div>

@@ -4,8 +4,8 @@ const Testemunhos = () => {
     const profile = "/profile.jpg";
 
     return (
-        <div className="mx-auto">
-            <h4 className="text-3xl font-bold text-center p-10">Testimonies</h4>
+        <div className="hidden mx-auto">
+            <h4 className="text-3xl font-bold text-center p-10">Costumer Testimonials</h4>
             
             <div className="flex md:flex-row flex-col justify-center items-center gap-8 mt-8 pl-20">
 

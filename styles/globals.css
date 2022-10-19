@@ -160,7 +160,7 @@
   .ml-form-successBody
   .ml-form-successContent
   p {
-  color: #fff;
+  color: #1b1b1b;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -188,7 +188,7 @@
   .ml-form-successBody
   .ml-form-successContent
   ul {
-  color: #fff;
+  color: #1b1b1b;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
@@ -234,7 +234,7 @@
   .ml-form-successContent
   p
   a {
-  color: #000;
+  color: #1b1b1b;
   text-decoration: underline;
 }
 #mlb2-5795106.ml-form-embedContainer

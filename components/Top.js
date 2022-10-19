@@ -22,7 +22,7 @@ const Top = () => {
                     </p>
                 </div>
                 
-                <Image src={laptop} width={1090} height={1090} alt="computer" className="objecct-cover md:w-1/2 w-full" />
+                <Image src={laptop} width={1090} height={1090} alt="computer" className="object-cover md:w-1/2 w-full" />
             </div>
         </div>
     )

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Top = () => {
 
-    const laptop = "/computer.png";
+    const laptop = "/black-friday.png";
 
     return (
         <div className="mx-auto max-w-6xl">

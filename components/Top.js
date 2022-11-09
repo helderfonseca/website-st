@@ -8,19 +8,18 @@ const Top = () => {
         <div className="mx-auto max-w-6xl">
             <div className="flex md:flex-row flex-col-reverse md:gap-16 gap-8 text-[#f8f8ff]">
                 <div className="md:w-1/2 w-full md:mt-24">
-                    <h1 className="text-4xl md:w-[25rem]"><strong>A Partner that helps your business compete on digital channels</strong></h1> 
+                    <h1 className="text-4xl md:w-[25rem]"><strong>Parceiro que ajuda o seu negócio a competir nos canais digitais </strong></h1> 
                     <p className="mt-4 mb-4 md:w-96 text-3xl font-light italic">
-                       Tidy house has another spot! Enjoy and <span className="font-bold">have your website.</span>
+                       Casa arrumada tem outra pinta! Aproveite e <span className="font-bold">tenha o seu Web Site.</span>
                     </p>
                     <p className="mt-4 mb-4 md:w-96 text-justify font-medium">
-                    To keep up with audience, more and more companies are betting on the creation of digital customer relationship channels.
+                        Para acompanhar seu público, cada vez mais empresas estão apostando na criação de canais digitais de relacionamento com o cliente.
                     </p>
                     <p className="mb-4 md:w-96 text-justify font-medium" >
-                        The online presence is much more than having a website on the internet:
-                        it is necessary to build authority and credibility of a company, becoming a reference in your area.
+                        A presença online é muito mais do que ter um website na internet: é preciso construir autoridade e credibilidade de uma empresa, tornando-se referência na área.
                     </p>
                     <p className="mb-4 md:w-96 text-justify font-medium" >
-                        Yellow Pages can help you create your Website through packages that meet your needs.
+                        As Páginas Amarelas podem ajudá-lo na criação do seu website, através de pacotes que vão ao encontro das suas necessidades. 
                     </p>
                 </div>
                 

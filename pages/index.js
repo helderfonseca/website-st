@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <main className="pb-10">
-        <div className='bg-[#FBED04] md:h-screen px-10 pb-4'>
+        <div className='md:h-screen px-10 pb-4 bg-[#181818]'>
           <Header></Header>
           <Top></Top>
         </div>

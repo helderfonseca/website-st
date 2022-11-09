@@ -6,11 +6,11 @@ const Top = () => {
 
     return (
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse md:gap-16 gap-8">
+            <div className="flex md:flex-row flex-col-reverse md:gap-16 gap-8 text-[#f8f8ff]">
                 <div className="md:w-1/2 w-full md:mt-24">
                     <h1 className="text-4xl md:w-[25rem]"><strong>A Partner that helps your business compete on digital channels</strong></h1> 
                     <p className="mt-4 mb-4 md:w-96 text-3xl font-light italic">
-                       Enjoy<span className="font-bold"> 30% OFF</span> until the end of the year!
+                       Tidy house has another spot! Enjoy and <span className="font-bold">have your website.</span>
                     </p>
                     <p className="mt-4 mb-4 md:w-96 text-justify font-medium">
                     To keep up with audience, more and more companies are betting on the creation of digital customer relationship channels.

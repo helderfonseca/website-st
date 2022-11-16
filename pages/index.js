@@ -9,22 +9,14 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Web Site - Landing Page</title>
-        <meta name="description" content="Website Landing Page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="pb-10">
-        <div className='md:h-screen px-10 pb-4 bg-[#181818]'>
+    <div className='pb-10'>
+        <div className='pt-8 md:h-screen px-10 bg-[#181818]'>
           <Header></Header>
           <Top></Top>
         </div>
         <Descontos></Descontos>
-        <Form></Form>
-        <Testemunhos></Testemunhos>
-      </main>
+        {/*<Form></Form>
+        <Testemunhos></Testemunhos>*/}
     </div>
   )
 }

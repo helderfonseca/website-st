@@ -1,14 +1,16 @@
 import Image from "next/image";
+import Form from "./Form";
+import laptop from '/public/black-friday.png'
 
 const Top = () => {
 
-    const laptop = "/black-friday.png";
+    //const laptop = "/black-friday.png";
 
     return (
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse md:gap-16 gap-8 text-[#f8f8ff]">
-                <div className="md:w-1/2 w-full md:mt-24">
-                    <h1 className="text-4xl md:w-[25rem]"><strong>Parceiro que ajuda o seu negócio a competir nos canais digitais </strong></h1> 
+            <div className="flex md:flex-row flex-col-reverse gap-4 md:gap-18 text-[#f8f8ff] items-center">
+                <div className="md:w-1/2 w-full self-center pb-10 md:pb-0">
+                    {/*<h1 className="text-4xl md:w-[25rem]"><strong>Parceiro que ajuda o seu negócio a competir nos canais digitais </strong></h1> 
                     <p className="mt-4 mb-4 md:w-96 text-3xl font-light italic">
                        Casa arrumada tem outra pinta! Aproveite e <span className="font-bold">tenha o seu Web Site.</span>
                     </p>
@@ -20,10 +22,13 @@ const Top = () => {
                     </p>
                     <p className="mb-4 md:w-96 text-justify font-medium" >
                         As Páginas Amarelas podem ajudá-lo na criação do seu website, através de pacotes que vão ao encontro das suas necessidades. 
-                    </p>
+                    </p>*/}
+                    <Form />
                 </div>
                 
-                <Image src={laptop} width={1090} height={1000} alt="Black Friday" className="object-contain md:w-1/2 w-full" />
+                <div className="md:w-1/2 w-full self-center">    
+                    <Image src={laptop} alt="Black Friday" className="object-contain" layout="responsive" priority="true" as="image" />
+                </div>    
             </div>
         </div>
     )

@@ -8,7 +8,7 @@ const Top = () => {
 
     return (
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse gap-4 md:gap-18 text-[#f8f8ff] items-center">
+            <div className="flex md:flex-row flex-col-reverse gap-8 md:gap-18 mt-6 text-[#f8f8ff] justify-center items-center">
                 <div className="md:w-1/2 w-full self-center pb-10 md:pb-0">
                     {/*<h1 className="text-4xl md:w-[25rem]"><strong>Parceiro que ajuda o seu negócio a competir nos canais digitais </strong></h1> 
                     <p className="mt-4 mb-4 md:w-96 text-3xl font-light italic">
@@ -27,7 +27,7 @@ const Top = () => {
                 </div>
                 
                 <div className="md:w-1/2 w-full self-center">    
-                    <Image src={laptop} alt="Black Friday" className="object-contain" layout="responsive" priority="true" as="image" />
+                    <Image src={laptop} alt="Black Friday" className="object-contain" layout="responsive" priority />
                 </div>    
             </div>
         </div>

@@ -1,14 +1,9 @@
-import { Fragment } from "react";
 
 
-const Form = () => {
-
-    return (
-     <Fragment>
-         <h1 className="md:text-left md:px-0 text-5xl font-bold md:inline-block py-2 rounded-md text-[#FBED04]">
-            Casa arrumada tem outra pinta! Aproveite e tenha o seu Web Site
-        </h1>
-        <h3 className="text-[1rem] mb-8 md:w-[100%] md:text-left text-center"> 
+export default function ContactForm() {
+  return (
+      <section id='forminfo' className="mt-32 mx-auto md:w-2/4 px-5">
+         <h3 className="text-3xl mb-12 font-bold text-center"> 
             Preencha os campos abaixo para obter a nossa oferta especial Black Friday
         </h3>
         {/*<form className="flex flex-col justify-center items-center gap-4 mt-8">
@@ -28,7 +23,7 @@ const Form = () => {
                 <input type="submit" className="bg-[#FBED04] w-[7rem] rounded p-0.5  m-5 hover:bg-[#FBED04]" ></input>
             </div>
         </form>*/}
-        <div id="mlb2-5795106" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5795106">
+        <div id="mlb2-5795106" className="text-center ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5795106">
           <div className="ml-form-align-center">
             <div className="ml-form-embedWrapper embedForm">
             <div className="ml-form-embedBody ml-form-embedBodyDefault row-form">
@@ -68,8 +63,6 @@ const Form = () => {
             </div>
         </div>
         </div>
-    </Fragment>
-    );
+      </section>
+  );
 }
-
-export default Form;

@@ -5,11 +5,11 @@ const Form = () => {
 
     return (
      <Fragment>
-         <h1 className="md:text-left md:px-0 text-5xl font-bold md:inline-block py-2 rounded-md text-[#FBED04]">
+         <h1 className="md:px-0 text-5xl font-bold md:inline-block py-2 rounded-md text-[#FBED04]">
             Casa arrumada tem outra pinta! Aproveite e tenha o seu Web Site
         </h1>
-        <h3 className="text-[1rem] mb-8 md:w-[100%] md:text-left text-center"> 
-            Preencha os campos abaixo para obter a nossa oferta especial Black Friday
+        <h3 className="text-[1rem] mb-8 md:w-[100%]"> 
+            Preencha os campos abaixo para obter uma oferta especial de 30% de desconto
         </h3>
         {/*<form className="flex flex-col justify-center items-center gap-4 mt-8">
             <div>
@@ -35,20 +35,25 @@ const Form = () => {
                 <div className="ml-form-embedContent" style={{marginBottom:0}}></div>
                 <form className="ml-block-form" action="https://static.mailerlite.com/webforms/submit/h4u1n5" data-code="h4u1n5" method="post" target="_blank">
                 <div className="ml-form-formContent">
+                    <div class="ml-form-fieldRow">
+                        <div class="ml-field-group ml-field-name ml-validate-required">
+                            <input aria-label="name" aria-required="true" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="Nome" autocomplete="name" />
+                        </div>
+                    </div>
                     <div className="ml-form-fieldRow">
-                    <div className="ml-field-group ml-field-name">
-                        <input aria-label="name" type="text" className="form-control" data-inputmask="" name="fields[name]" placeholder="Nome" autoComplete="name" />
+                        <div className="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                            <input aria-label="email" aria-required="true" type="email" className="form-control" data-inputmask="" name="fields[email]" placeholder="E-mail" autoComplete="email" />
+                        </div>
                     </div>
-                    </div>
-                    <div className="ml-form-fieldRow">
-                    <div className="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                        <input aria-label="email" aria-required="true" type="email" className="form-control" data-inputmask="" name="fields[email]" placeholder="E-mail" autoComplete="email" />
-                    </div>
+                    <div class="ml-form-fieldRow">
+                        <div class="ml-field-group ml-field-phone ml-validate-required">
+                            <input aria-label="phone" aria-required="true" type="text" class="form-control" data-inputmask="" name="fields[phone]" placeholder="Telefone" autocomplete="" />
+                        </div>
                     </div>
                     <div className="ml-form-fieldRow ml-last-item">
-                    <div className="ml-field-group ml-field-company">
-                        <input aria-label="company" type="text" className="form-control" data-inputmask="" name="fields[company]" placeholder="Empresa" autoComplete="" />
-                    </div>
+                        <div className="ml-field-group ml-field-company">
+                            <input aria-label="company" type="text" className="form-control" data-inputmask="" name="fields[company]" placeholder="Empresa" autoComplete="" />
+                        </div>
                     </div>
                 </div>
                 <input type="hidden" name="ml-submit" value="1"/>
